@@ -1,0 +1,56 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "df06901f-4c94-45fd-9b10-d1e99011d9f7")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 73.406 42.672)
+		(size 48.26 46.736)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1a8e9fa9-bdc7-4e76-ae1e-541b968b9dcd")
+		(property "Sheetname" "USB_C_IC"
+			(at 73.406 41.9604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "USB_C_IC.kicad_sch"
+			(at 73.406 89.9926 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "USBC_Light_Simple"
+				(path "/df06901f-4c94-45fd-9b10-d1e99011d9f7"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
