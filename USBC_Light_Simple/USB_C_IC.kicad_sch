@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "9802a159-ebc7-4afb-b6ca-139de809753d")
+	(uuid "740a55d0-2363-44ae-b62c-ff8cdca1f9ea")
 	(paper "A4")
 	(lib_symbols
 		(symbol "AP33772SDKZ-13-FA01:AP33772SDKZ-13-FA01"
@@ -2751,6 +2751,22 @@
 		(uuid "d8f4bd82-116b-450e-8336-36ecec6e6d2b")
 	)
 	(no_connect
+		(at 54.61 83.82)
+		(uuid "02e376f6-b298-4469-b1d1-2a87664e859b")
+	)
+	(no_connect
+		(at 54.61 78.74)
+		(uuid "0571347e-c1e2-48d6-b41e-fe42ab2e06b6")
+	)
+	(no_connect
+		(at 54.61 68.58)
+		(uuid "08efdc37-c4bd-43a2-93d7-02b26a8f7515")
+	)
+	(no_connect
+		(at 54.61 76.2)
+		(uuid "2fc64bf4-903b-48a1-9f1b-322e6833beb7")
+	)
+	(no_connect
 		(at 130.81 105.41)
 		(uuid "6f80fae9-249d-4a06-8877-e04a05755c61")
 	)
@@ -2771,16 +2787,40 @@
 		(uuid "825001cc-8bc8-4a12-b498-43cfaf106f3f")
 	)
 	(no_connect
+		(at 54.61 101.6)
+		(uuid "874ece9d-1343-41f8-ada4-d9d352deda61")
+	)
+	(no_connect
 		(at 135.89 59.69)
 		(uuid "896ee784-9c46-4856-b94f-069e88f0b269")
+	)
+	(no_connect
+		(at 54.61 86.36)
+		(uuid "972d0a9b-a6ce-4c32-82d9-d5a6d482a714")
+	)
+	(no_connect
+		(at 54.61 91.44)
+		(uuid "9b8fb2b4-d262-453d-a584-7bab05987261")
 	)
 	(no_connect
 		(at 148.59 85.09)
 		(uuid "9fea0367-94ab-49d8-8bb5-69cc9e007a79")
 	)
 	(no_connect
+		(at 54.61 99.06)
+		(uuid "a561bb17-5a24-4423-89b4-06705cba3e36")
+	)
+	(no_connect
 		(at 118.11 77.47)
 		(uuid "b91f58e5-25b2-4675-bd1d-baadd9e4d304")
+	)
+	(no_connect
+		(at 54.61 93.98)
+		(uuid "dd63c099-862f-4d1b-b2fd-ae5660a313bc")
+	)
+	(no_connect
+		(at 54.61 71.12)
+		(uuid "f7b5c379-59de-43fd-a5b5-a97e26ed3ef8")
 	)
 	(wire
 		(pts
@@ -3756,7 +3796,7 @@
 		)
 		(uuid "48a21098-947c-42f0-bf8e-34d23937feb0")
 	)
-	(label "data_n"
+	(label "data_-"
 		(at 59.69 55.88 0)
 		(effects
 			(font
@@ -3766,7 +3806,7 @@
 		)
 		(uuid "6b5a0283-cd7a-4764-bc47-e92c12793c24")
 	)
-	(label "data_p"
+	(label "data_+"
 		(at 59.69 60.96 0)
 		(effects
 			(font
@@ -3786,7 +3826,7 @@
 		)
 		(uuid "8fd1d01e-3262-45c7-a22d-0f9557b19583")
 	)
-	(label "data_n"
+	(label "data_-"
 		(at 110.49 87.63 0)
 		(effects
 			(font
@@ -3818,7 +3858,7 @@
 		)
 		(uuid "a9330ea5-c854-4277-bd40-8573a7cb4eb8")
 	)
-	(label "data_p"
+	(label "data_+"
 		(at 116.84 107.95 0)
 		(effects
 			(font
@@ -6132,7 +6172,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "USB-light-pro:CONN24_4056-03-A_GCT"
 			(at 43.18 68.58 0)
 			(effects
 				(font

@@ -47,6 +47,90 @@
 			)
 		)
 	)
+	(sheet
+		(at 101.854 105.156)
+		(size 53.848 26.416)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "56ee7f03-263b-49ea-8bad-dbbcc86dabc8")
+		(property "Sheetname" "MCU"
+			(at 101.854 104.4444 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU.kicad_sch"
+			(at 101.854 132.1566 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "USBC_Light_Simple"
+				(path "/df06901f-4c94-45fd-9b10-d1e99011d9f7"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 147.066 41.91)
+		(size 41.148 48.768)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "97ed1d27-543b-4ffe-a82a-b5ff7e3d7e72")
+		(property "Sheetname" "LEDs"
+			(at 147.066 41.1984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "LEDs.kicad_sch"
+			(at 147.066 91.2626 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "USBC_Light_Simple"
+				(path "/df06901f-4c94-45fd-9b10-d1e99011d9f7"
+					(page "3")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
